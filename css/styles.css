@@ -1,5 +1,11 @@
 :root {
     font-size: 16;
+
+    /* Theme variables */
+    --colour-princeton-orange: #fa8334;
+    --colour-mardi-gras: #7c238c;
+    --colour-tyrion-purple: #680e4b;
+    --colour-russian-violet: #42033d;
 }
 
 body {

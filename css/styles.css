@@ -159,9 +159,6 @@ main::before {
         transition: height 600ms ease;
     }
 
-    .mobile-menu {
-    }
-
     .nav-link {
         height: 3rem;
     }
@@ -218,5 +215,9 @@ main::before {
     main {
         margin-left: calc(var(--sidebar-width) + 2rem);
         padding: 1rem;
+    }
+
+    .mobile-menu {
+        display: none;
     }
 }

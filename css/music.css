@@ -1,0 +1,32 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+details {
+    width: 100%;
+}
+details[open] summary ~ * {
+    animation: sweep-in .5s ease-in-out; 
+}
+
+@keyframes sweep-in {
+    0%      {opacity: 0;}
+    100%    {opacity: 1;}
+}
+
+details[open] summary ~ * {
+    animation: sweep-out .5s ease-in-out;
+}
+
+@keyframes sweep-out {
+    100%    {opacity: 1;}
+    0%      {opacity: 0;}
+}
+
+summary {
+    font-size: 48px;
+    text-align: center;
+    outline: none;
+}
